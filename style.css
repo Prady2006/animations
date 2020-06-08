@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rebeccapurple;
+    border:4px palevioletred solid;
+    transition: all 0.5s ease;
+    top: 100;
+    /* bottom: 0; */
+    left: 100;
+    /* right: 0; */
+}
+#ball:hover {
+    background-color: palevioletred;
+    border: 4px rebeccapurple solid;
+}

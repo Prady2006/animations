@@ -11,8 +11,11 @@ body {
 }
 #box {
     height: 10vh;
-    width: 10vw;
+    width: 15vw;
     position: absolute;
     background-color: salmon;
     border: 2px brown solid;
+    font-weight: 300;
+    line-height: 100%;
+    text-align: center;
 }
